@@ -1,0 +1,70 @@
+/* 
+    Created on : 09.11.2019, 12:42:54
+    Author     : Jan-Mathis Hein
+*/
+
+.axis {
+    -fx-tick-label-fill: rgb(50, 50, 50);
+    -fx-start-margin: 4;
+    -fx-end-margin: 4;
+    -fx-tick-label-gap: 5;
+    -fx-tick-length: 6;
+    -fx-minor-tick-length: 3;
+    -fx-tick-mark-visible: true;
+}
+
+.axis-minor-tick-mark {
+    -fx-stroke: rgb(50, 50, 50);
+    -fx-stroke-width: 1;
+    -fx-opacity: 0.5;
+}
+
+.axis-tick-mark {
+    -fx-stroke: rgb(50, 50, 50);
+    -fx-stroke-width: 1;
+    -fx-opacity: 0.5;
+}
+
+.chart {
+    -fx-padding: 0px;
+    -fx-vertical-grid-lines-visible: false;
+    -fx-category-gap: 8;
+}
+
+.chart-bar {
+    -fx-background-color: rgb(50, 50, 170);
+}
+
+.chart-content {
+    -fx-padding: 10px;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: rgb(220, 220, 220);
+}
+
+.menu-bar {
+    -fx-background-color: rgb(160, 160, 160);
+}
+
+.root {
+    default-color: rgb(200, 200, 200);
+    -fx-background-color: default-color;
+    -fx-base-color: default-color;
+}
+
+.tab {
+    -fx-background-color: rgb(160, 160, 160);
+}
+
+.tab:selected {
+    -fx-background-color: rgb(140, 140, 140);
+}
+
+.tab-header-background {
+    -fx-background-color: rgb(220, 220, 220);
+}
+
+.tab-label {
+    -fx-text-fill: rgb(250, 250, 250);
+}

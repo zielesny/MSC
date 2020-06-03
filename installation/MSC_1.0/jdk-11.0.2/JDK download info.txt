@@ -1,0 +1,6 @@
+You need to download OpenJDK Version 11.0.2 from http://jdk.java.net/archive/ :
+- Go to the website and select download of version "11.0.2 (build 11.0.2+9)" 
+  for your operating system (OS). 
+- After download extract the zip or tar file (depending on your OS) 
+  and copy the contents of extracted folder "jdk-11.0.2" (for Windows and Linux) 
+  or "jdk-11.0.2.jdk" (for Mac) folder into this directory.

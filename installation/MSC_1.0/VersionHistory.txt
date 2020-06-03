@@ -1,0 +1,10 @@
+Molecule Set Comparator (MSC) Version 1.0
+
+Required Libraries:
+- cdk-2.3 for molecule encoding, molecule depiction and descriptor calculation
+- pdfbox-2.0.17 for image to pdf conversion
+- commons-logging-1.2 necessary for pdfbox-2.0.17
+- junit-4.12 for application testing
+- javaFX 14 for GUI and chart creation
+- batik-svggen-1.13 for image to svg conversion
+- batik-svg-dom-1.13 necessary for batik-svggen-1.13

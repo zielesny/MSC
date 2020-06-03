@@ -1,0 +1,80 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'de.whs.ibci'
+version '1.0'
+
+defaultTasks 'run'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'org.openscience.cdk:cdk-bundle:2.3'
+	implementation 'org.apache.pdfbox:pdfbox:2.0.17'
+	implementation 'commons-logging:commons-logging:1.2'
+	implementation 'org.apache.xmlgraphics:batik-svggen:1.13'
+	implementation 'org.apache.xmlgraphics:batik-svg-dom:1.13'
+	implementation group: 'org.openjfx', name: 'javafx-base', version: '14', classifier: 'win'
+	implementation group: 'org.openjfx', name: 'javafx-controls', version: '14', classifier: 'win'
+	implementation group: 'org.openjfx', name: 'javafx-swing', version: '14', classifier: 'win'
+	implementation group: 'org.openjfx', name: 'javafx-graphics', version: '14', classifier: 'win'
+	implementation group: 'org.openjfx', name: 'javafx-base', version: '14', classifier: 'mac'
+	implementation group: 'org.openjfx', name: 'javafx-controls', version: '14', classifier: 'mac'
+	implementation group: 'org.openjfx', name: 'javafx-swing', version: '14', classifier: 'mac'
+	implementation group: 'org.openjfx', name: 'javafx-graphics', version: '14', classifier: 'mac'
+	implementation group: 'org.openjfx', name: 'javafx-base', version: '14', classifier: 'linux'
+	implementation group: 'org.openjfx', name: 'javafx-controls', version: '14', classifier: 'linux'
+	implementation group: 'org.openjfx', name: 'javafx-swing', version: '14', classifier: 'linux'
+	implementation group: 'org.openjfx', name: 'javafx-graphics', version: '14', classifier: 'linux'
+    testImplementation 'junit:junit:4.12'
+	testImplementation 'org.openscience.cdk:cdk-bundle:2.3'
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_11
+	targetCompatibility = JavaVersion.VERSION_11
+}
+
+mainClassName = 'de.whs.ibci.msc.main.Main'
+
+application {
+    mainClass = mainClassName
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': mainClassName
+	}
+}
+
+test {
+	useJUnit()
+	maxHeapSize = '1G'
+}
+
+task resourceCopy(type: Copy, description: "Copy the MSC resources") {
+	from "$projectDir/src/main/java/resources"
+	into "$buildDir/classes/java/main/resources"
+}
+
+compileJava.configure {
+	dependsOn resourceCopy
+}
+
+task fatJar(type: Jar, description: "Creates an executable jar archive that includes all dependencies of the MSC") {
+	manifest {
+        attributes 'Implementation-Title': 'MSC Fat Jar File',
+        'Implementation-Version': archiveVersion,
+        'Main-Class': mainClassName
+    }
+	archiveAppendix = "fat"
+	from sourceSets.main.output
+	dependsOn configurations.runtimeClasspath
+    from {
+        configurations.runtimeClasspath.findAll { it.name.endsWith('jar') }.collect { zipTree(it) }
+    }
+}
