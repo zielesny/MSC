@@ -15,7 +15,7 @@ See instructions in "JDK download info.txt" in subfolder "jdk-11.0.2"
   ```
 - MacOS 
   ```
-  $bash MSC_MAC.sh
+  $bash MSC_Mac.sh
   ```
 ### RAM Defaults
 
