@@ -24,6 +24,9 @@ MSC is currently under scientific review - more information will be available so
   - To run MSC, execute *gradlew run*
   - To delete the project build directory, execute *gradlew clean*
 
+## Running MSC
+
+- A precompiled [jar file](https://github.com/Kohulan/MSC/tree/master/installation/MSC_1.0/lib) already provided in this repository in order to directly use it, please have a look at the [steps](https://github.com/Kohulan/MSC/blob/master/installation/MSC_1.0/README.MD) provided under the installation directory.
 
 ## Notes
 - MSC is not modularized due to its non-modularized library dependencies.
