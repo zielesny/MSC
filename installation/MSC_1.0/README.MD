@@ -21,7 +21,7 @@ See instructions in "JDK download info.txt" in subfolder "jdk-11.0.2"
 
 - In order to have a smooth performance the RAM allocation to JVM is set to 4GB in default.
 If you want to start MSC with a different RAM specification, you have to edit one of the 
-existing "MSC_?GB_<OS>" files (or a copy of them). In the third row, modify option
-"-Xmx?g" where ? specifies the amount of RAM you want to allocate for the JVM in gigabytes.
+existing "MSC_<OS>" file.
+- In the third row, modify option "-Xmx?g" where ? specifies the amount of RAM you want to allocate for the JVM in gigabytes.
 
 - A short and comprehensive introduction to MSC is provided in the "Tutorial" folder.
