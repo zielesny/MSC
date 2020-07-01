@@ -1,5 +1,5 @@
 ## Gradle project
-This folder contains a Gradle project that can be compiled and run with a command-line interface or any other IDE that supports Gradle. An JDK of version 11 or 
+This folder contains a Gradle project that can be compiled and run with a command-line interface or any IDE that supports Gradle. An JDK of version 11 or 
 higher is needed on your machine. You don't need to have Gradle installed on your machine. This is done automatically by the Gradle-wrapper
 
 ### IDEs
