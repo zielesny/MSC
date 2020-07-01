@@ -15,11 +15,12 @@ MSC is currently under scientific review - more information will be available so
 
 - ***installation*** - contains the installation folder *MSC_1.0* to be copied to a local machine for MSC execution. Note, that an additional JDK download is necessary (see [instructions](https://github.com/zielesny/MSC/blob/master/installation/MSC_1.0/jdk-11.0.2/JDK%20download%20info.txt) in subdirectory *jdk-11.0.2*). For a guided installation look at the [installation guide](https://github.com/zielesny/MSC/blob/master/Tutorial/MSC_Installation_Guide.pdf) in the *Tutorial* folder
 
-- ***Gradle Project for Netbeans*** - a Gradle project that can be run and compiled with Gradle, the Netbeans IDE or any other IDE that supports Gradle (JDK 11 or higher is needed)
+- ***Gradle Project for Netbeans*** - a Gradle project that can be compiled and run with Gradle, the Netbeans IDE or any other IDE that supports Gradle (JDK 11 or higher is needed)
 
 ## Running MSC
 
-- A precompiled [fat jar file](https://github.com/Kohulan/MSC/tree/master/installation/MSC_1.0/lib) (that includes all dependent libraries) is already provided in this repository. In order to directly use it, please have a look at the [steps](https://github.com/Kohulan/MSC/blob/master/installation/MSC_1.0/README.MD) provided under the installation directory.
+- A precompiled [fat jar file](https://github.com/Kohulan/MSC/tree/master/installation/MSC_1.0/lib) (that includes all dependent libraries) is already provided in this repository. In order to directly use it, please have a look at the [steps](https://github.com/Kohulan/MSC/blob/master/installation/MSC_1.0/README.MD) provided under the installation directory. 
+- Alternatively the MSC can be compiled and run using Gradle. For this, have a look at the *Gradle Project for Netbeans* folder where additional information is provided
 
 ## Notes
 - MSC is not modularized due to its non-modularized library dependencies.
