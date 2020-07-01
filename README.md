@@ -13,7 +13,7 @@ MSC is currently under scientific review - more information will be available so
 
 - ***lib*** - open libraries used by MSC
 
-- ***installation*** - contains the installation folder *MSC_1.0* to be copied to a local machine for MSC execution. Note, that an additional JDK download is necessary (see instructions in text file *JDK download info.txt* in subdirectory *jdk-11.0.2*). For a guided installation look at the file *MSC_Installation_Guide.pdf* in the *Tutorial* foldert
+- ***installation*** - contains the installation folder *MSC_1.0* to be copied to a local machine for MSC execution. Note, that an additional JDK download is necessary (see [instructions](https://github.com/zielesny/MSC/blob/master/installation/MSC_1.0/jdk-11.0.2/JDK%20download%20info.txt) in subdirectory *jdk-11.0.2*). For a guided installation look at the [installation guide](https://github.com/zielesny/MSC/blob/master/Tutorial/MSC_Installation_Guide.pdf) in the *Tutorial* folder
 
 - ***Gradle Project for Netbeans*** - a Gradle project that can be run and compiled with Gradle, the Netbeans IDE or any other IDE that supports Gradle (JDK 11 or higher is needed)
 
