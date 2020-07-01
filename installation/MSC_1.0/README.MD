@@ -25,4 +25,4 @@ existing "MSC_\<OS\>" files.
 - In the third row of each script, modify the option "-Xmx?g" where ? specifies the amount of RAM you want to allocate to the JVM in gigabytes.
 ### Getting started
 
-- A short introductory tutorial for MSC usage is provided in the *Tutorial* folder.
+- A short introductory [tutorial](https://github.com/zielesny/MSC/blob/master/installation/MSC_1.0/Tutorial/MSC_1.0_Tutorial.pdf) for MSC usage is provided in the *Tutorial* folder.
