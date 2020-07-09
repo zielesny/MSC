@@ -31,3 +31,7 @@ MSC is currently under scientific review - more information will be available so
 
 ## Notes
 - MSC is not modularized due to its non-modularized library dependencies.
+
+## MSC
+![GitHub Logo](https://github.com/Kohulan/MSC/blob/master/assets/MSC.png?raw=true)
+
