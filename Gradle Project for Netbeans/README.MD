@@ -1,6 +1,5 @@
 ## Gradle project
-This folder contains a Gradle project that can be compiled and run with a command-line interface or any IDE that supports Gradle. An JDK of version 11 or 
-higher is needed on your machine. You don't need to have Gradle installed on your machine. This is done automatically by the Gradle-wrapper
+This folder contains a Gradle project that can be compiled and run with a command-line interface or any IDE that supports Gradle. A JDK of version 11 or higher is needed on your machine. You don't need to have Gradle installed on your machine. This is done automatically by the Gradle-wrapper
 
 ### IDEs
 - The Gradle project can be opened with any IDE that supports Gradle projects. For example the Netbeans IDE
@@ -27,9 +26,9 @@ gradlew jar
 ```
 gradlew fatJar
 ```
-- To create the MSC javadoc
+- To create the MSC Javadoc
 ```
-gradlew javadoc
+gradlew Javadoc
 ```
 - To delete the project build directory
 ```
