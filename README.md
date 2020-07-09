@@ -23,7 +23,7 @@
 
 - A precompiled [fat jar file](https://github.com/Kohulan/MSC/tree/master/installation/MSC_1.0/lib) (that includes all dependent libraries) is already provided in this repository. To directly use it, please have a look at the [steps](https://github.com/Kohulan/MSC/blob/master/installation/MSC_1.0/README.MD) provided under the installation directory. 
 
-- Alternatively, the MSC can be compiled and run using Gradle. For this, have a look at the *Gradle Project for Netbeans* folder where additional information is provided
+- Alternatively, the MSC can be compiled using Gradle. For this, have a look at the *Gradle Project for Netbeans* folder where additional information is provided
 
 ## Citing the tool
 
