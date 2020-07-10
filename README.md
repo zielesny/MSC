@@ -1,8 +1,12 @@
 # Molecule Set Comparator (MSC)
+
 - Molecule Set Comparator (MSC) is designed as an application that enables a user to do a versatile and fast comparison of large molecule sets with a unique inter-set, molecule-to-molecule comparison, for the original set and for a predicted set of molecules obtained by machine learning approaches. 
 
 - The molecule-to-molecule comparison is based on chemical descriptors, which are included in the Chemistry Development Kit (CDK), such as Tanimoto similarities, atom/bond/ring counts, and physicochemical properties like logP. The results are presented graphically and summarized by interactive histograms that can be exported in publication quality
 
+<p align="center">
+  <img src="https://github.com/Kohulan/MSC/blob/master/assets/MSC_logo_.png?raw=true">
+</p>
 
 ## Contents of subfolders
 
