@@ -37,5 +37,5 @@
 - MSC is not modularized due to its non-modularized library dependencies.
 
 ## MSC
-![GitHub Logo](https://github.com/Kohulan/MSC/blob/master/assets/MSC.png?raw=true)
+![GitHub Logo](https://github.com/Kohulan/MSC/blob/master/assets/MSC_1.png?raw=true)
 
