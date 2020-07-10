@@ -27,7 +27,7 @@
 
 ## Citing the tool
 
-MSC is currently under scientific review - more information will be available soon.
+- MSC is currently under scientific review - more information will be available soon.
 
 ## Notes
 - MSC is not modularized due to its non-modularized library dependencies.
