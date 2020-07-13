@@ -5,7 +5,7 @@
 - The molecule-to-molecule comparison is based on chemical descriptors, which are included in the Chemistry Development Kit (CDK), such as Tanimoto similarities, atom/bond/ring counts, and physicochemical properties like logP. The results are presented graphically and summarized by interactive histograms that can be exported in publication quality
 
 <p align="center">
-  <img src="https://github.com/Kohulan/MSC/blob/master/assets/MSC_logo_.png?raw=true">
+  <img src="https://github.com/Kohulan/MSC/blob/master/assets/MSC_logo_.png">
 </p>
 
 ## Contents of subfolders
