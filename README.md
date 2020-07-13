@@ -10,7 +10,7 @@
 
 ## Contents of subfolders
 
-- ***Tutorial*** - a comprehensive step-by-step guide for the installation of the MSC and a short introductory tutorial for MSC usage and an application example of the MSC
+- ***Tutorials*** - a comprehensive step-by-step guide for the installation of MSC (*MSC_Installation_Guide.pdf*), a short introductory tutorial for MSC usage (*MSC_1.0_Tutorial.pdf*) and an application example (*MSC_Application_Example.pdf*)
 
 - ***src*** - all Java source files and resources
 
@@ -19,7 +19,7 @@
 - ***installation*** - contains the installation folder *MSC_1.0* to be copied to a local machine for MSC execution. 
   - Note, that an additional JDK download is necessary (see [instructions](https://github.com/zielesny/MSC/blob/master/installation/MSC_1.0/jdk-11.0.2/JDK%20download%20info.txt) in subdirectory *JDK-11.0.2*). 
   
-  - For a guided installation look at the [installation guide](https://github.com/zielesny/MSC/blob/master/Tutorial/MSC_Installation_Guide.pdf) in the *Tutorial* folder
+  - For a guided installation look at the [installation guide](https://github.com/zielesny/MSC/blob/master/Tutorial/MSC_Installation_Guide.pdf) in the *Tutorials* folder
 
 - ***Gradle Project for Netbeans*** - a Gradle project that can be compiled and run with Gradle, the Netbeans IDE or any other IDE that supports Gradle (JDK 11 or higher is needed)
 
