@@ -31,7 +31,20 @@
 
 ## Citing the tool
 
-- MSC is currently under scientific review - more information will be available soon.
+- @article{Rajan2021,
+abstract = {The open rich-client Molecule Set Comparator (MSC) application enables a versatile and fast comparison of large molecule sets with a unique inter-set molecule-to-molecule mapping obtained e.g. by molecular-recognition-oriented machine learning approaches. The molecule-to-molecule comparison is based on chemical descriptors obtained with the Chemistry Development Kit (CDK), such as Tanimoto similarities, atom/bond/ring counts or physicochemical properties like logP. The results are summarized and presented graphically by interactive histogram charts that can be examined in detail and exported in publication quality.},
+author = {Rajan, Kohulan and Hein, Jan-Mathis and Steinbeck, Christoph and Zielesny, Achim},
+doi = {10.1186/s13321-021-00485-4},
+issn = {1758-2946},
+journal = {Journal of Cheminformatics},
+number = {1},
+pages = {5},
+title = {{Molecule Set Comparator (MSC): a CDK-based open rich‐client tool for molecule set similarity evaluations}},
+url = {https://doi.org/10.1186/s13321-021-00485-4},
+volume = {13},
+year = {2021}
+}
+
 
 ## Notes
 - MSC is not modularized due to its non-modularized library dependencies.
