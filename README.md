@@ -31,7 +31,7 @@
 
 ## Citing the tool
 
-- MSC is currently under scientific review - more information will be available soon.
+- [K. Rajan, J.-M. Hein, C. Steinbeck and A. Zielesny, _Molecule Set Comparator (MSC) – A CDK-based open rich-client tool for molecule set similarity evaluations_, Journal of Cheminformatics (2021), 13:5](https://doi.org/10.1186/s13321-021-00485-4)
 
 ## Notes
 - MSC is not modularized due to its non-modularized library dependencies.
