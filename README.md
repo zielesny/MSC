@@ -1,4 +1,9 @@
 # Molecule Set Comparator (MSC)
+[![GitHub release](https://img.shields.io/github/release/zielesny/MSC.svg)](https://GitHub.com/zielesny/MSC/releases/)
+[![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)](https://GitHub.com/zielesny/MSC/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/zielesny/MSC.svg)](https://GitHub.com/zielesny/MSC/issues/)
+[![GitHub contributors](https://img.shields.io/github/contributors/zielesny/MSC.svg)](https://GitHub.com/zielesny/MSC/graphs/contributors/)
 
 - Molecule Set Comparator (MSC) is designed as an application that enables a user to do a versatile and fast comparison of large molecule sets with a unique inter-set, molecule-to-molecule comparison, for the original set and a predicted set of molecules obtained by machine learning approaches. 
 
